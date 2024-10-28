@@ -1,0 +1,156 @@
+/* FOR HOME PAGE */
+body.home-body {
+    background-color: #f3e5f5;
+    font-family: 'Georgia', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navlink.button {
+    background-color: #f3e5f5;
+    color: #064579;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+}
+
+.navlink.button:hover {
+    background-color: #d1c4e9;
+}
+
+.home-title {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    padding: 20px;
+    color: #4a148c;
+}
+
+.home-subtitle {
+    font-family: 'Georgia', sans-serif;
+    text-align: center;
+    color: #6a1b9a;
+}
+
+.home-main-photo {
+    width: 30vw; 
+    max-width: 200px; 
+    margin: auto;
+    display: block;
+    border: solid 1px #4a148c;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.home-caption-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #4a148c;
+}
+
+.home-figure {
+    padding: 10px;
+    text-align: center;
+}
+
+/* HOME FOOTER */
+.home-footer {
+    background-color: #4a148c;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.column-2 h2 {
+    font-family: 'Georgia', serif;
+    color: #4a148c; 
+    text-align: center;
+    border-bottom: 1px solid #6a1b9a;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* FOR MY BOOKSHELF */
+body {
+    background-color: #e0f7e4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* all tables */
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    max-width: 900px;
+}
+
+/* Table cells */
+table td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #c8e6c9;
+}
+
+/* Images in tables */
+table img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1 {
+    font-family: 'Georgia', serif;
+    color: #2e7d32; 
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* BOOKSHELF FOOTER */
+footer {
+    background-color: #1b5e20;
+    color: #ffffff;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* FOR ABOUT ME */
+.about-body {
+    background-color: #e0f4ff; 
+    font-family: Arial, sans-serif;
+}
+
+#about-section, #collection-process, #wishlist {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.about-title, #about-me-text, #currently-reading, #collection-process h2, #wishlist h2 {
+    text-align: center;
+    color: #064579; 
+    padding: 10px;
+}
+
+/* ABOUT ME FOOTER */
+.about-footer {
+    background-color: #064579; 
+    color: #ffffff;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
